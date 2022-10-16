@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "import/resolver": {
+      "typescript": {},
+      "alias": {
+        "map": [["@", "./src"]]
+      }
+    }
+  }
+}
