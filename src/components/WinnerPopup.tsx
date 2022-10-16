@@ -12,7 +12,7 @@ type WinnerPopupProps = DetailedHTMLProps<
 
 const WinnerPopup = ({ winner, ...props }: WinnerPopupProps) => {
   const wrapper = cx(
-    "px-4 py-4 text-6xl font-bold",
+    "px-4 py-4 text-6xl font-bold text-center",
     winner === WINNER.DRAW && "bg-white",
     winner === WINNER.PLAYER && "bg-green-700 text-white",
     winner === WINNER.CPU && "bg-red-700 text-white"
